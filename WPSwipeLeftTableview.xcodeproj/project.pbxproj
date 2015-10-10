@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		F576B0451BC7A9EE00E3DCA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F576B0441BC7A9EE00E3DCA8 /* main.m */; };
 		F576B0481BC7A9EE00E3DCA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F576B0471BC7A9EE00E3DCA8 /* AppDelegate.m */; };
-		F576B04B1BC7A9EE00E3DCA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F576B04A1BC7A9EE00E3DCA8 /* ViewController.m */; };
-		F576B04E1BC7A9EE00E3DCA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F576B04C1BC7A9EE00E3DCA8 /* Main.storyboard */; };
 		F576B0501BC7A9EE00E3DCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F576B04F1BC7A9EE00E3DCA8 /* Assets.xcassets */; };
 		F576B0531BC7A9EE00E3DCA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F576B0511BC7A9EE00E3DCA8 /* LaunchScreen.storyboard */; };
 		F576B05E1BC7A9EE00E3DCA8 /* WPSwipeLeftTableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F576B05D1BC7A9EE00E3DCA8 /* WPSwipeLeftTableviewTests.m */; };
 		F576B0691BC7A9EE00E3DCA8 /* WPSwipeLeftTableviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F576B0681BC7A9EE00E3DCA8 /* WPSwipeLeftTableviewUITests.m */; };
+		F576B07D1BC7AA8000E3DCA8 /* WPContextMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F576B0781BC7AA8000E3DCA8 /* WPContextMenuCell.m */; settings = {ASSET_TAGS = (); }; };
+		F576B07E1BC7AA8000E3DCA8 /* WPContextMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F576B07A1BC7AA8000E3DCA8 /* WPContextMenuTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F576B07F1BC7AA8000E3DCA8 /* WPOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F576B07C1BC7AA8000E3DCA8 /* WPOverlayView.m */; settings = {ASSET_TAGS = (); }; };
+		F576B0821BC7AAFD00E3DCA8 /* WPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F576B0811BC7AAFD00E3DCA8 /* WPViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F59F048E1BC7C504000CCC7B /* WPTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F59F048D1BC7C504000CCC7B /* WPTextCell.m */; settings = {ASSET_TAGS = (); }; };
+		F5B42A861BC7BB9100AD6687 /* delete_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B42A851BC7BB9100AD6687 /* delete_icon@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,6 @@
 		F576B0441BC7A9EE00E3DCA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F576B0461BC7A9EE00E3DCA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F576B0471BC7A9EE00E3DCA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F576B0491BC7A9EE00E3DCA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F576B04A1BC7A9EE00E3DCA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F576B04D1BC7A9EE00E3DCA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F576B04F1BC7A9EE00E3DCA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F576B0521BC7A9EE00E3DCA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F576B0541BC7A9EE00E3DCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,17 @@
 		F576B0641BC7A9EE00E3DCA8 /* WPSwipeLeftTableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPSwipeLeftTableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F576B0681BC7A9EE00E3DCA8 /* WPSwipeLeftTableviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPSwipeLeftTableviewUITests.m; sourceTree = "<group>"; };
 		F576B06A1BC7A9EE00E3DCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F576B0771BC7AA8000E3DCA8 /* WPContextMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPContextMenuCell.h; sourceTree = "<group>"; };
+		F576B0781BC7AA8000E3DCA8 /* WPContextMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPContextMenuCell.m; sourceTree = "<group>"; };
+		F576B0791BC7AA8000E3DCA8 /* WPContextMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPContextMenuTableViewController.h; sourceTree = "<group>"; };
+		F576B07A1BC7AA8000E3DCA8 /* WPContextMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPContextMenuTableViewController.m; sourceTree = "<group>"; };
+		F576B07B1BC7AA8000E3DCA8 /* WPOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPOverlayView.h; sourceTree = "<group>"; };
+		F576B07C1BC7AA8000E3DCA8 /* WPOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPOverlayView.m; sourceTree = "<group>"; };
+		F576B0801BC7AAFD00E3DCA8 /* WPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPViewController.h; sourceTree = "<group>"; };
+		F576B0811BC7AAFD00E3DCA8 /* WPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPViewController.m; sourceTree = "<group>"; };
+		F59F048C1BC7C504000CCC7B /* WPTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTextCell.h; sourceTree = "<group>"; };
+		F59F048D1BC7C504000CCC7B /* WPTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTextCell.m; sourceTree = "<group>"; };
+		F5B42A851BC7BB9100AD6687 /* delete_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +113,13 @@
 		F576B0421BC7A9EE00E3DCA8 /* WPSwipeLeftTableview */ = {
 			isa = PBXGroup;
 			children = (
+				F576B0761BC7AA8000E3DCA8 /* DAContextMenuTableViewController */,
 				F576B0461BC7A9EE00E3DCA8 /* AppDelegate.h */,
 				F576B0471BC7A9EE00E3DCA8 /* AppDelegate.m */,
-				F576B0491BC7A9EE00E3DCA8 /* ViewController.h */,
-				F576B04A1BC7A9EE00E3DCA8 /* ViewController.m */,
-				F576B04C1BC7A9EE00E3DCA8 /* Main.storyboard */,
+				F576B0801BC7AAFD00E3DCA8 /* WPViewController.h */,
+				F576B0811BC7AAFD00E3DCA8 /* WPViewController.m */,
+				F59F048C1BC7C504000CCC7B /* WPTextCell.h */,
+				F59F048D1BC7C504000CCC7B /* WPTextCell.m */,
 				F576B04F1BC7A9EE00E3DCA8 /* Assets.xcassets */,
 				F576B0511BC7A9EE00E3DCA8 /* LaunchScreen.storyboard */,
 				F576B0541BC7A9EE00E3DCA8 /* Info.plist */,
@@ -138,6 +152,20 @@
 				F576B06A1BC7A9EE00E3DCA8 /* Info.plist */,
 			);
 			path = WPSwipeLeftTableviewUITests;
+			sourceTree = "<group>";
+		};
+		F576B0761BC7AA8000E3DCA8 /* DAContextMenuTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5B42A851BC7BB9100AD6687 /* delete_icon@2x.png */,
+				F576B0771BC7AA8000E3DCA8 /* WPContextMenuCell.h */,
+				F576B0781BC7AA8000E3DCA8 /* WPContextMenuCell.m */,
+				F576B0791BC7AA8000E3DCA8 /* WPContextMenuTableViewController.h */,
+				F576B07A1BC7AA8000E3DCA8 /* WPContextMenuTableViewController.m */,
+				F576B07B1BC7AA8000E3DCA8 /* WPOverlayView.h */,
+				F576B07C1BC7AA8000E3DCA8 /* WPOverlayView.m */,
+			);
+			path = DAContextMenuTableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F576B0531BC7A9EE00E3DCA8 /* LaunchScreen.storyboard in Resources */,
+				F5B42A861BC7BB9100AD6687 /* delete_icon@2x.png in Resources */,
 				F576B0501BC7A9EE00E3DCA8 /* Assets.xcassets in Resources */,
-				F576B04E1BC7A9EE00E3DCA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F576B04B1BC7A9EE00E3DCA8 /* ViewController.m in Sources */,
+				F576B07E1BC7AA8000E3DCA8 /* WPContextMenuTableViewController.m in Sources */,
+				F576B07D1BC7AA8000E3DCA8 /* WPContextMenuCell.m in Sources */,
 				F576B0481BC7A9EE00E3DCA8 /* AppDelegate.m in Sources */,
+				F576B07F1BC7AA8000E3DCA8 /* WPOverlayView.m in Sources */,
 				F576B0451BC7A9EE00E3DCA8 /* main.m in Sources */,
+				F576B0821BC7AAFD00E3DCA8 /* WPViewController.m in Sources */,
+				F59F048E1BC7C504000CCC7B /* WPTextCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F576B04C1BC7A9EE00E3DCA8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F576B04D1BC7A9EE00E3DCA8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F576B0511BC7A9EE00E3DCA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +522,7 @@
 				F576B06F1BC7A9EE00E3DCA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F576B0701BC7A9EE00E3DCA8 /* Build configuration list for PBXNativeTarget "WPSwipeLeftTableviewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				F576B0721BC7A9EE00E3DCA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F576B0731BC7A9EE00E3DCA8 /* Build configuration list for PBXNativeTarget "WPSwipeLeftTableviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				F576B0751BC7A9EE00E3DCA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WPViewController.h
 //  WPSwipeLeftTableview
 //
 //  Created by 王鹏 on 15/10/9.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WPContextMenuTableViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface WPViewController : WPContextMenuTableViewController
 
 @end
-
